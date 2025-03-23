@@ -172,7 +172,7 @@ if (closeModalBtn) {
 //branch droplist
 document.addEventListener("DOMContentLoaded", function () {
     const branchSelect = document.getElementById("branchList");   
-    fetch("/resources/droplist.json")
+    fetch("resources/droplist.json")
         .then(response => {
             if (!response.ok) {
                 throw new Error("Failed to load appraiser.json");
