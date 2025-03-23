@@ -1,5 +1,5 @@
 //db
-import { database, ref, push, onValue } from "./firebaseConfig.js";
+import { database, ref, push, onValue, update } from "./firebaseConfig.js";
 
 const branchName = localStorage.getItem('userName') || "Unknown Branch";  // Retrieve branch name
 const collectionListDB = ref(database, `stationary/${branchName}`);
