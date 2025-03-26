@@ -1,7 +1,8 @@
 [
    
     { "username": "1", "password": "1", "branch": "Admin", "id": "2" } ,
-    { "username": "2", "password": "2", "branch": "Sujith", "id": "2" } ,
+    { "username": "susha", "password": "su@5056", "branch": "Susha", "id": "2" } ,
+   { "username": "indhu", "password": "ind#781", "branch": "Indhu", "id": "2" } ,
 
     
         {
