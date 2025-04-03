@@ -16,16 +16,20 @@ function formatTimestamp(timestamp) {
 
 // Checkbox fields with display names
 const checkboxFields = {
-    "goldCover": "Gold Cover",
+   "goldCover": "Gold Cover",
     "KYCBooks": "KYC Book",
     "Vocher": "Voucher",
     "sticker": "Sticker",
     "Inlandletter": "Inland Letter",
-    "whitecover": "White Envelope",
+    "whitecover": "White Envelope(Small)",
+    "whitecover1": "White Envelope(Big)",
     "ctyrp": "Chitty Receipt Book",
     "ctyvr": "Chitty Voucher",
     "glrecept": "Gold Loan Receipt",
-    "glapplication": "Gold Loan Application"
+    "glapplication": "Gold Loan Application",
+    "chiyform": "Chity Form",
+    "rdbook": "RD Book",
+    "carbon": "Carbon Paper"
 };
 
 const branchListDropdown = document.getElementById("branchList");
